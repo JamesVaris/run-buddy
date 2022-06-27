@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -40,4 +41,27 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+}
+/* Edits footer BG color and space capcity */
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+/* Centers text, puts them inline, edits color, & font size for footer h2 element */ 
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+/* Positions the container in the footer */
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+/* Edits the color of text for page link */
+footer a {
+    color: #024e76;
 }
