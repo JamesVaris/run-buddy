@@ -12,3 +12,6 @@ https://jamesvaris.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by James Varis
+
+
+# Run Buddy Inc.
