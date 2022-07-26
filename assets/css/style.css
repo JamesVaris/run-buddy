@@ -141,10 +141,6 @@ section {
   }
 /* HERO STYLE ENDS */
 /* What we do section */
-/* Centers everything in the section */
-.intro {
-    text-align: center;
-}
 /* Edits text paragraph  to intro class & horizontally centers */
 .intro p {
     line-height: 1.7;
@@ -152,21 +148,22 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 /* What you do section */
 /* Aligns everyting with class and edits background color */
 .steps {
-    text-align: center;
     background: #fce138;
 }
 /* Combined classes for h2 elements allows syncronized edits for different sections */
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 .primary-border {
     border-color: #fce138;
@@ -199,9 +196,6 @@ section {
     font-size: 38px;
 }
 /* Centers text in div element for trainers class */
-.trainers {
-    text-align: center;
-}
 /* Aligns and edits text in the article element for the trainer class */
 .trainer {
     width: 900px;
@@ -247,17 +241,17 @@ section {
 }
 /* REACH OUT SECTION STYLES START */
 .contact {
-    text-align: center;
     background: #024e76;
 }
 /* Edits and positions h2 element for section */
 .section-title {
     font-size: 55px;
-    display: inline-block;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    margin-bottom: 35px;
     border-color: #39a6b2;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 } 
 /* Edits font color on the section title */
 .contact h2 {
@@ -294,3 +288,6 @@ section {
     color: #fce138;
 }
 /* REACH OUT STYLE ENDS */
+.flex-row {
+    display: flex;
+}
